@@ -14,8 +14,14 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold">Passionate Web Developer & Tech Creator</h3>
-                    <p className="text-muted-foreground">Need to add to this paragraph</p>
+                    <h3 className="text-2xl font-semibold">Software Engineer and Game Developer</h3>
+                    <p className="text-muted-foreground">I am interested in gaining professional experience developing software,
+                        working as part of a development team, and applying the programming and software engineering skills 
+                        I have developed through my studies and personal projects. I am interested in game development 
+                        because it strengthens my general software development skills by improving my programming, 
+                        problem-solving, debugging, and ability to design and structure software systems. It also gives me
+                         practical experience working with complex code, user interactions, testing, and turning ideas
+                          into functional applications.</p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                         <a href="#contact" className="cosmic-button">Get In Touch</a>
@@ -32,22 +38,11 @@ export const AboutSection = () => {
                             <Code className='h-6 w-6 text-primary' />
                         </div>
                         <div className="text-left">
-                            <h4 className='font-semibold text-lg'>Web Development</h4>
-                            <p className='text-muted-foreground'>Paragraph to be inserted</p>
+                            <h4 className='font-semibold text-lg'>Software Engineering</h4>
+                            <p className='text-muted-foreground'>Full-stack applications</p>
                         </div>
 
 
-                    </div>
-                </div>
-                <div className="gradient-border p-6 card-hover">
-                    <div className="flex items-start gap-4">
-                        <div className="p-3 rounded-full bg-primary/10">
-                            <User className='h-6 w-6 text-primary' />
-                        </div>
-                            <div className="text-left">
-                            <h4 className='font-semibold text-lg'>Web Development</h4>
-                            <p className='text-muted-foreground'>Paragraph to be inserted</p>
-                        </div>
                     </div>
                 </div>
                 <div className="gradient-border p-6 card-hover">
@@ -56,11 +51,24 @@ export const AboutSection = () => {
                             <Briefcase className='h-6 w-6 text-primary' />
                         </div>
                             <div className="text-left">
-                            <h4 className='font-semibold text-lg'>Web Development</h4>
-                            <p className='text-muted-foreground'>Paragraph to be inserted</p>
+                            <h4 className='font-semibold text-lg'>Game Development</h4>
+                            <p className='text-muted-foreground'>Unity game engine</p>
                         </div>
                     </div>
                 </div>
+                <div className="gradient-border p-6 card-hover">
+                    <div className="flex items-start gap-4">
+                        <div className="p-3 rounded-full bg-primary/10">
+                            <User className='h-6 w-6 text-primary' />
+                        </div>
+                            <div className="text-left">
+                            <h4 className='font-semibold text-lg'>Modern Project and Team Practices</h4>
+                            <p className='text-muted-foreground'>Waterfall, Agile, Scrum, Kanban, XP, etc.</p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
             </div>
             </div>

@@ -164,3 +164,15 @@
   text-align: center;
 }
 
+.image {
+  width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.smallimage {
+  width: 140px;
+  height: auto;
+}
+

@@ -14,16 +14,12 @@ export const HeroSection = () => {
                     <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2"> Logunov </span>
 
                 </h1>
+
+                <img className="image p-4" src="22.jpg" alt="photograph" />
                 <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto
                 opacity-0 animate-fade-in-delay-3">
-                    I am a Software Engineering student at the Centennial College in Toronto, Ontario. I am interested in
-                     gaining professional experience developing software, working as part of a development team, and applying
-                      the programming and software engineering skills I have developed through my studies and personal projects.
-                      I am interested in game development because it strengthens my general software development skills 
-                      by improving my programming, problem-solving, debugging, and ability to design and structure 
-                      software systems. It also gives me practical experience working with complex code, user interactions, 
-                      testing, and turning ideas into functional applications.
-                </p>
+                    I am a Software Engineering student at the Centennial College in Toronto, Ontario, with an additional
+                    interest in Game Development.</p>
 
             <div className="pt-4 opacity-0 animate-fade-in-delay-4">
                 <a href="#projects" className="cosmic-button">

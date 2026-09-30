@@ -16,7 +16,7 @@ export const ContactSection = () => {
         setTimeout(() => {
 
             // need to change this to toasting
-            window.alert("Message Sent! Thank you for your message.");
+            window.alert("Sorry, message is supposed to be sent but it's not implemented yet. Stay tuned. Thank you!");
             setIsSubmitting(false);
         }, 1500);
     }

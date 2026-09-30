@@ -4,10 +4,11 @@ import { StarBackground } from '../components/StarBackground';
 import { Navbar } from '../components/Navbar';
 import { HeroSection } from '../components/HeroSection';
 import { AboutSection } from '../components/AboutSection';
-import { SkillsSection } from '../components/SkillsSection';
+import { ServicesSection } from '../components/ServicesSection';
 import { ProjectsSection } from '../components/ProjectsSection';
 import { ContactSection } from '../components/ContactSection';
 import { Footer } from '../components/Footer';
+import { EducationSection } from '../components/EducationSection';
 
 
 export const Home = () => {
@@ -22,8 +23,9 @@ export const Home = () => {
     <main>
       <HeroSection />
       <AboutSection />
-      <SkillsSection />
       <ProjectsSection />
+      <EducationSection />
+      <ServicesSection />
       <ContactSection />
     </main>
     <Footer />

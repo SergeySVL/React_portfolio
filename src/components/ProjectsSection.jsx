@@ -4,10 +4,12 @@ import { Tv, GitCompareArrows, ExternalLink, ArrowRight } from 'lucide-react';
 const projects = [
     {
         id: 1,
-        title: "Project1",
-        description: "A beautiful project1 page using React and Tailwind",
+        title: "Tic Tac Toe game",
+        description: "A Tic Tac Toe game for two players. The game state can be saved and reinstated across browser windows " +
+        "(players can play in the same or different browser windows) and on browser restart. Planning to refactor the app " +
+        "using React.",
         image: "../../project1.jfif",
-        tags: ["React", "TailwindCSS", "Supabase"],
+        tags: ["HTML", "CSS", "TypeScript"],
         githubURL: "#",
         demoURL: "#",
         ytURL: "#"
@@ -15,10 +17,12 @@ const projects = [
 
         {
         id: 2,
-        title: "Project2",
-        description: "A beautiful project2 page using React and Tailwind",
+        title: "MERN Stack Note-Taking application",
+        description: "A full-stack note-taking application with user authentication, authorization for personalized note " +
+        " management, and a rate limiter using Redis Upstash. Built RESTful APIs to create, edit, delete, and retrieve notes " +
+        " from the database.",
         image: "../../project2.jfif",
-        tags: ["React", "TailwindCSS", "Supabase"],
+        tags: ["React", "Mongo", "Node.js", "Express"],
         githubURL: "#",
         demoURL: "#",
         ytURL: "#"
@@ -26,10 +30,11 @@ const projects = [
 
         {
         id: 3,
-        title: "Project3",
-        description: "A beautiful project3 page using React and Tailwind",
+        title: "2D Side Scroller",
+        description: "Working on a 2D side scroller implementing player movement, climbing and collision mechanics. Working " +
+        "to design multiple levels featuring obstacles, collectibles, and progressively challenging gameplay.",
         image: "../../project3.jfif",
-        tags: ["React", "TailwindCSS", "Supabase"],
+        tags: ["Unity", "C#"],
         githubURL: "#",
         demoURL: "#",
         ytURL: "#"
