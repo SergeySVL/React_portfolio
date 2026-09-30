@@ -1,22 +1,13 @@
 
-import { Link, NavLink } from 'react-router-dom';
 import { ThemeToggle } from '../components/ThemeToggle';
 import { StarBackground } from '../components/StarBackground';
 import { Navbar } from '../components/Navbar';
 import { HeroSection } from '../components/HeroSection';
 import { AboutSection } from '../components/AboutSection';
-
-
-/* function Navbar() {
-  return (
-    <nav>
-      <Link to="/">Home</Link>
-      <NavLink to="/about">About</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-    </nav>
-  );
-}
- */
+import { SkillsSection } from '../components/SkillsSection';
+import { ProjectsSection } from '../components/ProjectsSection';
+import { ContactSection } from '../components/ContactSection';
+import { Footer } from '../components/Footer';
 
 
 export const Home = () => {
@@ -31,8 +22,11 @@ export const Home = () => {
     <main>
       <HeroSection />
       <AboutSection />
+      <SkillsSection />
+      <ProjectsSection />
+      <ContactSection />
     </main>
-
+    <Footer />
 
     </div>;
 };
